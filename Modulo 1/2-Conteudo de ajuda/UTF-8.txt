@@ -1,0 +1,3 @@
+01000001 = A        <-
+                     | 
+Código multibyte  UTF-8

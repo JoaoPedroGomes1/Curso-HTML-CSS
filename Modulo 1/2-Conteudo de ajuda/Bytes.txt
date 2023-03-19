@@ -1,0 +1,15 @@
+1024 bytes = 1 KB Kilo Byte       ( o resultado 1024 é sempre 2 elevado a 10 )
+
+1024 KB = 1 MB  Mega Byte       MB e Mb tem diferença, MB MEGABYTES = sistema de 8 bits, Mb MEGABITS = sistema de milhões de bits. Byte é mais para 
+                                 Armazenamento ex: Pendrive 60GB, HD 1 TERA, MÉMORIA RAM DE 16 GB, Tudo é em MEGABYTES.
+1024 MB = 1 GB Giga Byte        
+                                  Bits é para transmissão como internet, ex: Internet de 500 MB ou de 1 G Giga bits, ou placa de rede de 100 mega. Tudo em                                   
+1024 GB = 1 TB Tera Byte           BITS.
+
+1024 TB = 1 PB Peta Byte
+
+1024 PB = 1 EB Exa Byte
+
+1024 EB = 1 ZB Zeta Byte
+
+1024 ZB = 1 YB Yota Byte

@@ -1,0 +1,4 @@
+Toda tag pode ter parametros e valores
+
+também pode ter parametro e valores no paragrafo e no h1, mas é uma coisa menos usual, normalmente tem algumas
+tags que usa parametros e valores especificos.

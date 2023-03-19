@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+            # = id
+            . = class
+            : = pseudo--class
+            :: = pseudo-element
+            > = clildren
+        */
+
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .linksespeciais:active {
+           color: yellow; 
+        }
+
+        .linksespeciais {
+           background-color: rgba(196, 91, 91, 0.637);
+        }
+
+        .linksespeciais::before {
+           content: '❄ ';
+           color: rgb(13, 194, 207);
+           font-weight: normal;
+           text-decoration: none;
+        }
+
+        .linksespeciais::after {
+            content: ' ❄';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(13, 194, 207);
+        }
+    </style>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul type="square">
+        <li><a href="https://github.com/gustavoguanabara" target="_bl
+            " class="linksespeciais">Repositório GitHub</a></li>
+        <li><a href="https://github.com/gustavoguanabaraaa" class="linksespeciais">Canal do YouTube</a></li>
+        <li><a href="https://github.com/gustavoguanabaraa" class="linksespeciais">Site do JãumTW</a></li>
+    </ul>
+</body>
+</html>

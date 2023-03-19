@@ -1,0 +1,38 @@
+Domínio é um nome que identifica seu site, domínio é nome único e não podem existir dois
+domínios com o mesmo nome 
+
+Domínio é pago por ANO, para que possa usar o nome
+
+
+
+
+
+Hospedagem é o local onde seu site vai estar armazenado, onde vai ficar alocado por um tempo
+quando você comprar um serviço de hospedagem, como um hotel ou hospedagem na vida real, casa.
+
+
+
+
+Ex: www.github.com/JãumTWTi       tem outros conteudos faltando
+
+www = sub-domínio              https:// = protocolo    o s é com segurança, por isso te cadeado.
+
+github.com = domínio
+
+.com = TLD    tem outros com .br .gov .tv e outros, esses são para paises ou outras coisas.
+.io = GTLD  Domínio generico pouco utilizado
+
+/JãumTWTi  = caminho
+
+www.github.com/JãumTWTi = URL
+
+Outro EX: JãumTWTi.github.io
+
+JãumTWTi = sub-domínio
+
+github.io = domínio
+
+.io = TLD ou GTLD
+
+JãumTWTi.github.io = URL
+

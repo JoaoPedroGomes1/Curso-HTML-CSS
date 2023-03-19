@@ -1,0 +1,27 @@
+a maiorias das aberturas de tag tem abertura e fechamento, o fechamento do titulo não pode ter espaço
+
+<h1> abertura de tag
+</h1> fechamento de tag
+
+Paragrafo é a mesma coisa ele tem abertura e fechamento
+
+<p> abertura
+</p> fechamento
+
+
+Ex:          João e o pé de feijão                            <h1>João e o pé de feijão</h1>
+
+          Era uma vez..                                         <p>Era uma vez..</p>
+
+
+
+tag para colocar foto na tela, <img src="foto.png" alt="exemplo de foto">
+
+src é  sorce = origem cujo a origem é o arquivo da foto
+
+alt é o texto alternativo, caso não consiga mostrar a imagem, vai mostrar esse texto alternativo ( exemplo de foto em texto,
+ ou descrição da imagem)
+
+<img abertura da tag, e o img não tem /img
+
+a grande maioria das tags tem abertura e fechamento, mas existem tags que não tem fechamento ex: HR, META, IMG.

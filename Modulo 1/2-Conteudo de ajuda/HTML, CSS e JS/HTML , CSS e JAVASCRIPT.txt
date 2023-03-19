@@ -1,0 +1,15 @@
+HTML é uma linguagem focada em conteúdo, e conteúdo pode ser texto, imagem, vídeo, tabelas, listas e outros,
+tudo focado em conteúdo.
+
+
+CSS é uma linguagem que foca em atrativos visuais, design, tamanho da imagem, o texto escrito por cima da imagem
+cores, sombras, tamanhos, posicionamentos.
+
+
+JavaScript ou JS é a linguagem de interações e interatividade, por exemplo as 3 barrinhas que abre o menu de 
+opções em sites, popups, validações por exemplo nome de usuarios invalidos, qualquer coisa que tenha interação.
+
+o conjunto das 3 linguagens trabalham juntas e são de importancia, uma dá o conteúdo e a outra dá a beleza e a 
+outra a praticidade e opções.
+
+

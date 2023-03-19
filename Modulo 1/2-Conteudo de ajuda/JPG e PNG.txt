@@ -1,0 +1,4 @@
+JPG é o formato de de imagen com alta compactação, EX quero uma foto gigantesca no fundo do meu desktop, tem que ser com JPG
+
+PNG é o formato de imagens que permite transparencia e qualidade um pouco melhor, EX quero uma foto transparente de fundo e
+ outra na frente, só com PNG

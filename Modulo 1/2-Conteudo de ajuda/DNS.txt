@@ -1,0 +1,6 @@
+DNS é como uma agente telefonica só que da internet, a agenda no celular é feita para não
+precisar ficar decorando o número de varías pessoas, no DNS é para não decorar o IP de
+varíos sites, assim quando você pesquisa um site, você vai direto para o DNS e não pro 
+servidor do site, dps dele pegar o Ip ele te manda codificado com o nome, sem precisar 
+decorar nada, assim como você clica no contato na agente com um nome, você não lembra 
+o número, mas sim o nome.

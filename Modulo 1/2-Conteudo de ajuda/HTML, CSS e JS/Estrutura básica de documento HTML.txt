@@ -1,0 +1,25 @@
+Todo HTML tem duas areas bem definidas, area da cabeça <head> e area do corpo <body>, a estrutura head e body
+ estão para dentro da estrutura HTML, é chamado de indentação (arrumação do código), só ver a imagem.
+
+dentro da área head é a configuração e a body é a área de corpo, corpo é onde fica o site, as configurações em
+cima são feitas no head.
+
+
+a linha <meta charset="UTF-8"> significa que o site vai ser compativel com caracteres de UTF-8, que vai dar 
+compatibilidade com acentuação, no geral palavras em português como ~ , ç , ú , ê.
+
+a linha <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0">
+
+e a última tag que vamos ver no head será a <tittle>Document</tittle>  , que vai ser o titulo que ira aparecer
+em cima.
+
+
+na área body vai se colocar o conteúdo do site, o conteúdo da matéria, os menus e tudo mais
+Ex: <h1>Meu Titulo</h1>
+
+
+
+significa que o site tem a parte do texto em cima, e a parte branca em baixo, usando essa parte branca em 100%
+e sera visualizado em uma escala de 100% não vai abrir com zoom, vai abrir padrão

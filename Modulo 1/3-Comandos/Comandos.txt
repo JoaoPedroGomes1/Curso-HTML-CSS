@@ -1,0 +1,620 @@
+Comandos em GERAL
+
+
+quando for criar um arquivo e colocar o code de html 5 apenas coloque ! e de enter na busca
+
+===============================================================================================================================================================
+
+<!-- --> ou /* */
+
+Observação
+
+===============================================================================================================================================================
+
+<h1>Título</h1> 
+
+Para fazer título e fechalo
+
+===============================================================================================================================================================
+
+<hr>
+
+para fazer uma linha em baixo do título
+
+===============================================================================================================================================================
+
+<p>Paragrafo</p> 
+
+ para fazer um paragrafo e fechalo
+
+===============================================================================================================================================================
+
+<br>
+
+ quebra a linha e pula para a de baixo
+
+===============================================================================================================================================================
+
+&lt;p&gt; e &lt;/p&gt; 
+
+ LT menor que, e GT maior que, para deixar marcado <> no documento
+
+===============================================================================================================================================================
+
+&#xCode do emoji para adicionar um emoji
+
+&reg; &copy; &trade; &euro; &pound; &yen; &cent; &Delta; &delta; &uparrow; &uarr;  , para adicionar alguns simbolos
+
+===============================================================================================================================================================
+
+usando CNTRL+SHIFT+P e digitando abb na parte de pesquisa, selecione wrap abreviation, digite alguma tag, frase tem 
+que escar selecionada, CNTRL+A
+
+===============================================================================================================================================================
+
+<strong> 
+
+usado para deixar frase em negrito
+
+===============================================================================================================================================================
+
+<sub></sub>
+
+ usado para colocar letra ou número para baixo ex: H2O onde o 2 fica em baixo.
+
+===============================================================================================================================================================
+
+<sup></sup>
+
+ usado para colocar letra ou número para cima ex: Rais ao quadrado de 2 x2, onde o 2 fica em cima do X.
+
+===============================================================================================================================================================
+
+<ins></ins>
+
+ usado para deixar frase ou texto sublinhado.
+
+===============================================================================================================================================================
+
+<del></del> 
+
+para deixar o texto ou frase riscado no meio.
+
+===============================================================================================================================================================
+
+<small></small> 
+
+usado para deixar frase pequena
+
+===============================================================================================================================================================
+
+<em></em>
+
+ usado para dar ênfase
+
+===============================================================================================================================================================
+
+<mark></mark> 
+
+usado para marcar texto, pode usar cor para deixar destacado
+
+===============================================================================================================================================================
+
+<pre></pre>
+
+ é usado para pré-formatação, pra fazer código fonte. Assim ficando do formado desejado, não um seguido do outro.
+
+===============================================================================================================================================================
+
+<q></q> 
+
+ é usado para colocar aspas
+
+===============================================================================================================================================================
+
+<blockquote></blockquote>
+
+ é usado para citação com quebra de linha pra direita
+
+===============================================================================================================================================================
+
+cite="link" 
+
+ é usado para citar o autor, site, loja ou outro do criador da citação, é usado com blockquote, ex <blockquote cite="link"
+
+===============================================================================================================================================================
+
+<abbr></abbr> 
+
+ usado no envelopamento para colocar tittle na palavra selecionada e deixar ela com pontilhados em baixo, ao passar o mouse ele
+mostra um texto sobre a imagen com o contexto da palavra (significado)
+
+===============================================================================================================================================================
+
+BDO é usado com rtl que deixa o texto invertido ou ltr que deixa o texto normal
+
+===============================================================================================================================================================
+
+<ol></ol> 
+
+usado para fazer listas ordenadas. e dentro do propio ol pode ser adicionado para uma sub-listas em baixo do LI
+
+===============================================================================================================================================================
+
+<li></li>
+
+ ou só <li> é usado junto com o comando OL para produção da lista, a númerando automaticamente, usar dentro do OL.
+
+===============================================================================================================================================================
+
+type="1 ou outro" usado junto com OL para selecionar o tipo da lista, com o número 1 vai ser tipo númerica. usado com OL
+
+(1) número. (A) letras maiúsculas. (a) letras minúsculas. (I) alarismos romanos maiúscolos. (i) minúsculos.
+
+===============================================================================================================================================================
+
+start="sómente número"
+
+ é usado junto com type para que inicie de um determinado número selecionado, dando continuidade. usado em frente type
+
+<ol type="1" start="4"> exemplo. Assim sendo o próximo da lista o 5, se tiver 3 e começar do 4, vai ser 4, 5 e 6. não 4, 3 e 2!
+
+===============================================================================================================================================================
+
+<ul></ul> 
+
+é usado para fazer listas também, só que não ordenadas, também pode-se usar os comandos complementares a cima só que diferentes.
+
+Ex: <ul type="circle"></ul> , podendo ser usadas no type, disc, circle e square.
+
+===============================================================================================================================================================
+
+Segurar ALT e clicar em algua parte do texto, você pode digitar ou apagar em várias linhas ao mesmo tempo.
+
+===============================================================================================================================================================
+
+<dl></dl> 
+
+usado para criar lista de definição
+
+===============================================================================================================================================================
+
+<dt></dt>
+
+ usado para colocar o termo.
+
+===============================================================================================================================================================
+
+<dd></dd>
+
+ usado para descrição.
+
+===============================================================================================================================================================
+
+<a></a> 
+
+usado para colocar link externo ou interno
+
+===============================================================================================================================================================
+
+target="_blank"
+
+ usado para sites externos    usado com <a></a>
+
+===============================================================================================================================================================
+
+target="_self" 
+
+usado  para abrir na própia aba de navegação
+
+===============================================================================================================================================================
+
+rel="external" 
+
+usado para sites internos     usado com <a></a>
+ 
+===============================================================================================================================================================
+
+rel="next"
+
+ usados para avançar para próxima página em sites internos    usado com <a></a>
+
+===============================================================================================================================================================
+
+rel="prev" 
+
+usado para voltar para página em sites internos      usado com <a></a>
+
+===============================================================================================================================================================
+
+rel="nofollow" 
+
+ usado para o mecanismo de busca no site, para não dar aval para o link utilizado
+
+===============================================================================================================================================================
+
+../ é usado para voltar uma pasta, caso tenha uma pasta dentro da outro, ex: <a href="../index.html">    usado com <a></a>
+
+===============================================================================================================================================================
+
+<picture> 
+
+usado para colocar imagem
+
+===============================================================================================================================================================
+
+<source media type>
+
+ usado para declarar o tamanho da imagem em px, EX 100px, e para colocar o caminho da imagem e o formato, ex tbm do media a baixo
+media pode ter mina ou max, media="max-width:750px)"  srcset="imagem" type formato da imagem dps do /, type="image/pgn"
+
+===============================================================================================================================================================
+
+download="nome do arquivo"
+
+ usado para baixar arquivos
+
+===============================================================================================================================================================
+
+type="application/pdf ou zip"
+
+ usado com download para baixar coisas
+
+===============================================================================================================================================================
+
+<audio>
+
+ usado para sigmento de áudios, preload="" , autoplay, controls e loop também podem ser usados junto com <audio>
+o <audio> pode ser feito de maneira manual, o vsc já cria o code, as você pode exlcuir e colocar manualmente o source src
+
+===============================================================================================================================================================
+
+<source src="midia" 
+
+usado para selecionar a midia, type="" usado para o formato da midia ex nesse caso, type="audio/mpeg"
+MP3 é MPEG.
+
+===============================================================================================================================================================
+
+<video>
+
+ usado para o segmento de vídeos, novamente usando source src e type, type vai ser no formato "videos/mp4 ou o formato desejado.
+
+===============================================================================================================================================================
+
+height="315"
+
+ Altura
+
+===============================================================================================================================================================
+
+width="560"
+
+ Largura
+
+===============================================================================================================================================================
+
+frameborder="0"
+
+ é a borda do vídeo
+
+===============================================================================================================================================================
+
+poster
+
+ é usado para colocar tumbnail no vídeo
+
+===============================================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Comandos em CSS
+
+
+style="background-color: lime;" 
+
+Exemplo de style, que adiciona cor em alguma coisa, nessa caso uma frase usanda dentro da tag ex: <mark style="background-color: lime;">texto marcado</mark> 
+
+Ela adiciona cor a sua marcação de texo no body, no head cria um novo paragrafo 
+
+<style> mark { background-color: lime; }
+
+Mas tem que ser a baixo do tittle, nesse caso é a página inteira.
+
+===============================================================================================================================================================
+
+style="color 
+
+usado para dar cor a palavras, dentro de uma tag ex: <h1 style="color , também pode ser usado no body como <body style="background-color, assim 
+deixa a página de outra cor
+
+===============================================================================================================================================================
+
+style="text-align: right;"
+
+usado para deixar uma palavra para direita, pode ser colocado para esqueda também, apenas mudar o right
+
+===============================================================================================================================================================
+
+text-indent: 30px;
+
+Usado para dar o espaço no começo do texto
+
+===============================================================================================================================================================
+
+font-weight: bold;
+
+Usado para deixar em negrito
+
+================================================================================================================================================================
+
+font-family 
+
+também pode ser usada para mudar a fonte da letra, utilizei no caso junto com background-color
+EX: <body style="background-color: rgb(27, 175, 185); font-family: Arial, Helvetica, sans-serif;">
+
+===============================================================================================================================================================
+
+text-align: justify;
+
+ usado para ajustar um texto com style. EX: <p style="text-align: justify;">
+
+===============================================================================================================================================================
+
+text-decoration: underline;
+
+ usado para deixar sublinhado em um titulo ou paragrafo, etc..
+
+===============================================================================================================================================================
+
+text-decoration: none;
+
+ Usei para tirar o sublinhado
+
+===============================================================================================================================================================
+
+font-size
+
+ é usado para aumentar a fonte to texto. EX font-size: 20px; , usada no style, outros EX em baixo
+<body style="background-color: rgb(27, 175, 185); font-family: Arial, Helvetica, sans-serif; font-size: 20px;">
+<h1 style="color: blue; font-size: 1.5em;">
+
+===============================================================================================================================================================
+
+background-color
+
+ é usado também para colocar cor de fundo em uma frase ou palavra (uma linha). EX: background-color: aqua; ou
+<h1 style="color: blue; background-color: aqua; font-size: 1.5em;">
+
+===============================================================================================================================================================
+
+style sendo usando no head em baixo do tittle pode ser usado dessa forma, que é muito pratico!
+<style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        h1 {
+            color: darkblue;
+            background-color: aqua;
+        }
+        h2 {
+            color: darkred;
+        }
+        p {
+            text-align: justify;
+        }
+    </style>
+
+===============================================================================================================================================================
+
+Link:css
+
+É usado para criar um link ppara uma página especifica de CSS, onde vai ficar os estilos do seu site, usado em baixo do tittle em head.
+
+E também pode ser usado 2 link com arquivos CSS em uma página, ele adiciona o conteudo dos dois arquivos, e também posso usar os outros tipos de CSS também.
+
+Existe uma ierarquia nos estilos no qual o mais poderoso permanece, sendo que os outros não podem mudalo, primeiro o Enline, depois o local e por último o 
+externo, o enline é o que vc vai na tag e coloca, o local é aquele que se usa no head em baixo do tittle e o externo é o utilizado por link.
+
+Observações:
+
+ evitar usar o css enline, só em casos pontuais que só se vai utilizar em 1 página
+
+ css interno dentro do head é bom utilizar em estilos pequenos, como 1 a 3 páginas para não dificultar o manejo dos estilos
+
+ css externos, usado pelo link, é sempre bom ser usado e sem moderação kkk, uma boa escolha para sites com muitas páginas ou no mínimo 4 ou até menos.
+
+===============================================================================================================================================================
+
+@charset "UTF-8";
+
+ é usado na página CSS como regra, todo @ é uma regra no CSS, urf-8 é a linguagem com acentos e outros pro pt-br
+
+===============================================================================================================================================================
+
+background-attachment: fixed;
+
+fixar as cores no site
+
+===============================================================================================================================================================
+
+background-image: linear-gradient
+
+Cores em degrade, pode ser usado com por exemplo: (-45deg), (45deg), (90deg), ou (to top), (to bottom), (to left) etc..
+
+===================================================================================================================================================================================================================================
+
+* {}
+
+Configurações globais
+
+===================================================================================================================================================================================================================================
+
+body {}
+
+Corpo do CSS
+
+===================================================================================================================================================================================================================================
+
+Shorthand font
+            
+font-style -> font-weight -> font-size -> font-family   , Usado para abreviar comandos na ordem certa de fonte ex: 
+
+font-family: 'Work Sans', sans-serif;   , e ficaria assim: ( font: italic bolder 3em 'Work Sans', sans-serif; )
+font-weight: bolder;
+font-size: 3em;
+font-style: italic;
+
+===================================================================================================================================================================================================================================
+
+id="nome"
+
+Usado para identificar, exemplo vários h1, mas vc quer personalizar 1 em específico, usando o id="nome" vc pode identificar o h1 específico para modificar no CSS
+
+EX: h1#principal onde o id="principal" ou #principal   ( ID é uso único por comando, se já tiver um h1 com o ex: id="1" , não pode ter outro comando com o id 1,
+ele é único por comando, o nome usado no id no caso. Class é usado para vários.
+
+===================================================================================================================================================================================================================================
+
+class="nome"
+
+Usado para identificar vários comandos e poder personalizar vários ao mesmo tempo, praticamente igual ao id="nome" a cima, só que esse pode ser usado em vários
+ao mesmo tempo. class com background-color não sobrepoem id com background-color.
+
+===================================================================================================================================================================================================================================
+
+ Em HTML é id = em CSS é # , (tudo que é em HTML é id, vira # em CSS) (pode só um elemento)
+
+ Em HTML é class = em CSS é . ,(tudo que é em HTML é class, em CSS vira .) (pode vários elementos)
+
+===================================================================================================================================================================================================================================
+
+span
+
+basicamente não faz nada, usei para colocar o class="nome" 
+
+===================================================================================================================================================================================================================================
+
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-element
+> = clildren
+                                                                                                                 
+===================================================================================================================================================================================================================================
+
+:Hover
+
+ Usado quando passa o mouse em cima
+
+===================================================================================================================================================================================================================================
+
+:active
+
+ Quando clica no link ela fica da cor desejada
+
+===================================================================================================================================================================================================================================
+
+::after e ::before
+
+ Usado antes ou depois de por exemplo links que utilizei no teste
+
+Ex: que eu fiz 		.linksespeciais::before {                 .linksespeciais::after {                     
+            		content: '❄ ';                            content: ' ❄';
+            		text-decoration: none;                     text-decoration: none;
+            		font-weight: normal;				 font-weight: normal;
+            		color: rgb(13, 194, 207);			 color: rgb(13, 194, 207);
+
+===================================================================================================================================================================================================================================
+
+margin: auto:
+
+Usado para deixar uma box (caixa), centralizada na tela
+
+===================================================================================================================================================================================================================================
+Shorthands
+
+		border-width: 10px;                                               padding-top: 10px;				margin-top: 20px;						outline-width: 5px;
+            border-style: solid;            						padding-right: 10px;				margin-right: 20px;					outline-style: dashed;
+            border-color: darkslategray;							padding-bottom: 10px;				margin-bottom: 40px;					outline-color: salmon;
+													padding-left: 10px;				margin-left: 20px;			
+ Abreviado: border: 10px solid darkslategray;																			Abreviado:  outline: 5px dashed salmon;
+										    	Abreviado:  padding: 10px;			Abreviado: margin: 20px 20px 40px 20px;		
+
+
+no padding e margin, é usando apenas um único parametro, vai ser usado para todo o quadrado, caso use 2, vai ser o primeiro para o de cima e o de baixo, e o segundo para a direita e esquerda.
+
+border-image-source: url('Borda.png');
+            border-image-slice: 27;
+            border-image-repeat: repeat;
+
+            border-image: url('Borda.png') 27 repeat;
+
+
+
+===================================================================================================================================================================================================================================
+													 	
+Centralizar Shorthands
+
+auto
+
+ EX: margin: 20px 20px 40px 20px ;
+
+ Centralizado: margin: 20px auto 40px auto;
+
+centraliza na direção que desejar, o comando margin foi usado como exemplo, pode ser usado em outro também.
+
+===================================================================================================================================================================================================================================
+
+border-radius
+
+Pode ser usado para dar bordas arredondadas, usando tanto quanto px ou %, ex: border-radius: 10px; ou border-radius: 50%; , tem 4 valores ou px, 4 lados.
+
+===================================================================================================================================================================================================================================	
+
+* { }
+
+Usado como configuração global
+
+===================================================================================================================================================================================================================================	
+
+:root { }
+
+Usado como facilitador, nele tem que ser usado --texto(qualquercoisa) Ex: --cor0: #c5ebd6; outro exemplo --fonte-android: 'Android', cursive;
+
+exemplo: É usado var(--cor) 
+===================================================================================================================================================================================================================================	
+
+content: ;
+
+Usado para colocar emogi em algo, exemplo link :	 			 a.externo::after {
+ \00A0 é o espaço do emogi, e os números o codigo do emogi   		content: '\00A0\1F517';
+										}
+
+===================================================================================================================================================================================================================================									
+
+background-image: linear-gradient
+
+Usei para colocar a cor em degrade da direita pra esquerda ex:background-image: linear-gradient(to right, cor azul, cor roxa, transparent);
+
+===================================================================================================================================================================================================================================
+

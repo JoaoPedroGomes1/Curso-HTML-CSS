@@ -1,0 +1,18 @@
+ client-side é a tecnologia que usa HTML, CSS e JS, o servidor só entraga o arquivo
+o seu navegador vai executar as 3 linguagens. Básicamente o front end está especializado na parte visual e interativa
+do site, ele vai se preucupar muito em dar uma boa experiencia para o cliente.
+
+Client-side é o (lado do cliente)
+
+Front-end nada mais é que client-side
+
+
+Server-side usa outros conjuntos de linguagens pHp, JS NODE mas pode ter outras, C sharp, Python,Ruby e java (não script).E o back end está mais interessado na interação com o codigo dele com o
+servidor e na tecnologia de server-side.
+
+Back-end é o (lado do servidor)
+
+Back-end nada mais é que Server-side
+
+
+Full Stack e quem vira desenvolvedor dos dois modos

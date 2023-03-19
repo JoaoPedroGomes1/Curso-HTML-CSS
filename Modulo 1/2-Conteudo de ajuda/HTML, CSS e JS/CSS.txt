@@ -1,0 +1,14 @@
+Ex da aula, o CSS pode ser usado para mudar o texto feito no HTML, não gostei da fonte ou das cores, venho no css
+e mudo tudo
+
+h1 {
+     font-family: Arial;          <- isto é a configuração de como eu quero que fique meu novo visual no HTML
+     font-size: 20pt;                 do primeiro modelo de HTML
+     color: blue;
+   }
+
+
+cada declaração é um par de propiedade e valor
+
+
+Toda declaração tem que ter ponto e virgula no final ;
