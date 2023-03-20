@@ -400,7 +400,10 @@ font-size
 
 background-color
 
- é usado também para colocar cor de fundo em uma frase ou palavra (uma linha). EX: background-color: aqua; ou
+ é usado também para colocar cor de fundo em uma frase ou palavra (uma linha).  (Usado em style para dar cor, exemplos abaixo pode não ser tão pratico)
+
+EX: background-color: aqua; 
+ou
 <h1 style="color: blue; background-color: aqua; font-size: 1.5em;">
 
 ===============================================================================================================================================================
@@ -508,17 +511,17 @@ ao mesmo tempo. class com background-color não sobrepoem id com background-colo
 
 ===================================================================================================================================================================================================================================
 
-span
-
-basicamente não faz nada, usei para colocar o class="nome" 
-
-===================================================================================================================================================================================================================================
-
 # = id
 . = class
 : = pseudo-class
 :: = pseudo-element
 > = clildren
+
+===================================================================================================================================================================================================================================
+
+span
+
+basicamente não faz nada, pode ser usado para colocar o class="nome"
                                                                                                                  
 ===================================================================================================================================================================================================================================
 
@@ -618,11 +621,33 @@ Usei para colocar a cor em degrade da direita pra esquerda ex:background-image: 
 
 ===================================================================================================================================================================================================================================
 
-url (' ')
+background-image: url (' ')
 
 Usado para colocar imagem até o momento coloquei imagem, com o diretorio do arquivo
 
 Ex: background-image: url('imagens/halloween200.png');
+
+===================================================================================================================================================================================================================================
+
+background-size: ;
+
+Usado para definir o tamanho da imagem usada com back image url
+
+Ex: background-size: 100px 100px;
+
+===================================================================================================================================================================================================================================
+
+background-repeat: ;
+
+Usado com a imagem em forma de repetição de forma váriada
+
+Ex: background-repeat: repeat-y;  repete imagem de cima para baixo
+
+background-repeat: repeat-x;  repete imagem em linha reta
+
+background-repeat: repeat;  repete na tela inteira a imagem
+
+background-repeat: no-repeat;  não repete a imagem e deixa ela do ponto da partida original, canto superior esquerdo
 
 ===================================================================================================================================================================================================================================
 
