@@ -5,9 +5,11 @@ quando for criar um arquivo e colocar o code de html 5 apenas coloque ! e de ent
 
 ===============================================================================================================================================================
 
-<!-- --> ou /* */
+<!-- --> ou /* */ 
 
 Observação
+
+para criar uma observação /* */ apenas selecione a parte que queira criar uma observação e aperte SHIFT + ALT + A, e para desfazer são as mesmas teclas
 
 ===============================================================================================================================================================
 
@@ -682,4 +684,38 @@ vw
 largura da view port (width) (Parte branca da página do site, centro)
 
 ===================================================================================================================================================================================================================================
+background-size: contain;
+
+Usado para deixar a imagem 100% exibida na tela
+
+===================================================================================================================================================================================================================================
+
+background-size: cover;
+
+Usado para cobrir a tela inteira, nem que corte um pedaço pequeno da imagem (uma recortada)
+
+não usa 100% da imagem mas ocupa 100% da view port (vh)
+
+===================================================================================================================================================================================================================================
+
+Shorthands background
+
+color > image >position > repeat > size > attachment (não deu certo, tem que colocar size em codigo completo a baixo)
+
+color > image > position > / > size > repeat > attachment (deu certo)
+
+color > image > repeat > attachment > position >/size (também deu certo)
+
+no curso mostra que o size (cover ou contain não entram no shorhands, mas descobri que funciona se deixar colado com o position e colocar / para separar os dois, pode variar a ordem como mostrado nos outros exemplos)
+
+Ex funcional com / : 
+
+background: black url('imagens/wallpaper002.jpg') center center/cover no-repeat fixed;
+
+
+Ex outro funcional com /:
+
+ background: black url('imagens/wallpaper002.jpg') no-repeat fixed center center/cover;
+
+
 
