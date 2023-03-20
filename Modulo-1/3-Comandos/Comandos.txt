@@ -651,3 +651,35 @@ background-repeat: no-repeat;  não repete a imagem e deixa ela do ponto da part
 
 ===================================================================================================================================================================================================================================
 
+background-position: ;
+
+Usado para selecionar a posição da imagem por exemplo na div
+
+Ex: background-position: center center;
+
+background-position: center top;
+
+background-position:  left center;
+
+background-position: right bottom;
+
+e assim vai, pode ser usado de várias formas com tanto que seja desse modo  posição horizontal  ->   posição vertical, nessa ordem.
+
+(HORIZONTAL) esquerda e direita e tbm centro
+
+(VERTICALl) em baixo e topo e tbm centro
+
+===================================================================================================================================================================================================================================
+
+vh 
+
+altura da view port (height) (Parte branca da página do site, centro)
+
+===================================================================================================================================================================================================================================
+ 
+vw
+
+largura da view port (width) (Parte branca da página do site, centro)
+
+===================================================================================================================================================================================================================================
+
