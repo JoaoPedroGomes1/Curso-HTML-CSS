@@ -553,7 +553,7 @@ Ex: que eu fiz 		.linksespeciais::before {                 .linksespeciais::afte
 
 margin: auto:
 
-Usado para deixar uma box (caixa), centralizada na tela
+Usado para deixar uma box (caixa), centralizada na tela (Horizontalmente, esquerda direita)
 
 ===================================================================================================================================================================================================================================
 Shorthands
@@ -716,6 +716,66 @@ background: black url('imagens/wallpaper002.jpg') center center/cover no-repeat 
 Ex outro funcional com /:
 
  background: black url('imagens/wallpaper002.jpg') no-repeat fixed center center/cover;
+
+===================================================================================================================================================================================================================================
+
+position: relative;
+
+Usado para deixar o container (box) em posicionamento relativo, no padrão ele já vem assim
+
+Ex:  #container {
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            position: relative;
+            height: 96vh;
+            background-color: purple;
+            padding: 10px;
+        }
+
+( no curso, fala que o que está de fora, está contendo (container) tem o posicionamento relative, e o conteúdo que está dentro tem posicionamento absolute )
+
+
+===================================================================================================================================================================================================================================
+
+position: absolute;
+
+Usado para deixar o conteúdo com posicionamento absolute
+
+Podendo ajustar ou centralizar o conteúdo, usando left e top tanto com px que pode ir ajustando, ou % que deve ser feito outros ajustes
+
+Ex:  left: 100px;		 left: 50%;	
+       top: 100px;		top: 50%		
+
+no caso se usar %, pode acontecer que não fique centralizado a imagem, ele considera a ponta esquerda superior, não o cecntro do conteúdo, nesse caso se utiliza
+
+transform: translate(-50%, -50%);
+
+que pode ser ajustado no px ou % também, melhor usar % como no exemplo a baixo
+
+Ex: #conteudo {
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+( no curso, fala que o que está de fora, está contendo (container) tem o posicionamento relative, e o conteúdo que está dentro tem posicionamento absolute )
+
+===================================================================================================================================================================================================================================
+
+transform: translate(-50%, -50%);
+
+Usado para ajustar ou centralizar o conteúdo, nos exemplos usados foram utilizados valores negativos, mas apenas para se adequar a imagem utilizada, pode ser necessario usar tanto positivo quanto negativo, depende do caso
+
+===================================================================================================================================================================================================================================
+
 
 
 
