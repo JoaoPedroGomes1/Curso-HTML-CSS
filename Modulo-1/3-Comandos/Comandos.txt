@@ -901,3 +901,66 @@ obs: 13px de espalhamento, 0px de ampliação.
 
 ===================================================================================================================================================================================================================================
 
+Tabela
+
+table
+            caption 
+
+            thead (cabeça)
+                tr, td, th
+
+            tboddy (corpo)
+                tr, td, th
+
+            tfoot (pé)
+                tr, td, th
+
+
+
+table = tabela    <table>
+
+	caption = legenda da tabela (apenas texto)
+
+         	table row = linha de tabela   <tr>
+
+                	 table header = cabeçalho de tabela
+
+                 	table data = dados de tabela   <td>
+
+As tags podem ser abreviadas como <tr>, td>,usadas em tabelas, podem ser usadas as tags tr e td sem fechamento, se a hierarquia não for seguida os dados podem aparecer antes ou depois da tabela
+
+===================================================================================================================================================================================================================================
+
+scope
+
+Usado em th para títulos de tabelas, em títulos que os dados ão a baixo se usa scope="col"  ,  e em títulos que os dados estão na mesma linha se usa scope="row".
+
+Ex:         <th scope="row">Total de Habitantes</th>
+
+	<th scope="col">Estado</th>
+
+===================================================================================================================================================================================================================================
+
+border-collapse: collapse;      ou         border-collapse: separate;
+
+Usado para deixar as inhas da tabela juntinhas ou separadas
+
+===================================================================================================================================================================================================================================
+
+vertical-align , top, middle, bottom
+
+Usado para organizar os dados da tabela verticalmente
+
+===================================================================================================================================================================================================================================
+
+text-align , left, center, right
+
+Usado para organizar os dados da tabela horizontalmente
+
+===================================================================================================================================================================================================================================
+
+thead , tbody , tfoot
+
+Usados para cabeça, corpo e pé da tabela
+
+===================================================================================================================================================================================================================================
