@@ -1027,4 +1027,58 @@ Usados para conteudos em tabela
 
 ===================================================================================================================================================================================================================================
 
+tr
 
+Usado para tabelas
+
+===================================================================================================================================================================================================================================
+
+span="3"  (exemplo)
+
+Usando em tabelas na pratica com a tag col, para copiar uma configuração para a proxima coluna da tabela, ou quantas forem colocadas
+
+Ex: <col class="csexo" span="3">
+
+===================================================================================================================================================================================================================================
+
+colgrup
+
+Usada no body para poder criar as tags col para configurar as tabelas, no col se coloca class para poder configurar
+
+Ex: <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="3">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+
+===================================================================================================================================================================================================================================
+
+col
+
+Usado para poder configurar uma coluna na tabela, e facilitar a configuração das colunas na tabela, no col se coloca class para poder configurar
+
+Ex:  <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="3">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+
+===================================================================================================================================================================================================================================
+
+overflow (tudo) / overflow-y (em pé) / overflow-x (lateral)
+
+Usado para não ter a rolagem da pagina para a lateral, é criada com div para deixar a só a tabela com rolagem
+
+Ex: <div id="container">
+        <table>
+        </table>
+
+div#container {
+            overflow-x: ;
+        }
+
+Usei dessa forma, envelopei o table com div, e no div eu coloquei um id="container" , e no style coloquei na config do id overflow
+
+===================================================================================================================================================================================================================================
