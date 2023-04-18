@@ -945,7 +945,7 @@ As tags podem ser abreviadas como <tr>, td>,usadas em tabelas, podem ser usadas 
 
 scope
 
-Usado em th para títulos de tabelas, em títulos que os dados ão a baixo se usa scope="col"  ,  e em títulos que os dados estão na mesma linha se usa scope="row".
+Usado em th para títulos de tabelas, em títulos que os dados são a baixo se usa scope="col"  ,  e em títulos que os dados estão na mesma linha se usa scope="row".
 
 Ex:         <th scope="row">Total de Habitantes</th>
 
@@ -1002,4 +1002,29 @@ tbody > tr:nth-child(2n) {
 tbody é a tag principal e tr é a tag filha que está dentro do tbody, assim se eu usar no style tudo que for feito dessa forma afetara somente as tags tr dentro do tbody.
 
 ===================================================================================================================================================================================================================================
+
+colspan=" " e rowspan=" "
+
+Usado em tabelas para deixar um parte da tabela maior ou unificada
+
+Ex:
+
+colspan="2" : para colunas, parece que está em linha reta na tabela, mas é coluna (muda pra frente, n pra baixo, nessa tag!)
+
+rowspan="2" : parece coluna já que é em pé, mas é de linha (muda pra baixo, n pra frente, nessa tag!)
+
+===================================================================================================================================================================================================================================
+
+th
+
+Usado para titulos em tabelas
+
+===================================================================================================================================================================================================================================
+
+td
+
+Usados para conteudos em tabela
+
+===================================================================================================================================================================================================================================
+
 
