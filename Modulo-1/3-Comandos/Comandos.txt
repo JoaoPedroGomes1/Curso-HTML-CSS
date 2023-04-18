@@ -719,6 +719,18 @@ Ex outro funcional com /:
 
 ===================================================================================================================================================================================================================================
 
+position: sticky;
+
+Usei para colar uma linha da tabela na parte superior do site, usei antes position: relative; em outra trag.
+
+Ex:  thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: rgb(41, 40, 40);
+       }
+
+===================================================================================================================================================================================================================================
+
 position: relative;
 
 Usado para deixar o container (box) em posicionamento relativo, no padrão ele já vem assim
@@ -964,3 +976,30 @@ thead , tbody , tfoot
 Usados para cabeça, corpo e pé da tabela
 
 ===================================================================================================================================================================================================================================
+
+:nth-child(2n)
+
+Usei para fazer o efeito zebrado na tabela, pode ser colocar 1n,2n,3n e etc, a cada número ela pula a mais, no 2n ela pula 1 linha e marca a outra, 3n ela pula 2 linha e marca a outra e etc. também podendo colocar menos, negativo na frente do n, assim voltando um, é melhor usar a forma a baixo de par e impar.
+
+Ex com negativo:    :nth-child(2n-1)
+
+pode ser usado como par e impar também
+
+odd para impar      (.    :nth-child(odd)     .)
+
+even para par       (.    :nth-child(even)        .)
+
+===================================================================================================================================================================================================================================
+
+>
+
+Usado normalmente no style para afiliar uma tag como filha, por exemplo 
+
+tbody > tr:nth-child(2n) {
+        background-color: rgb(167, 167, 167);
+       }
+
+tbody é a tag principal e tr é a tag filha que está dentro do tbody, assim se eu usar no style tudo que for feito dessa forma afetara somente as tags tr dentro do tbody.
+
+===================================================================================================================================================================================================================================
+
