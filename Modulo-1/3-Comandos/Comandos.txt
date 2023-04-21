@@ -201,7 +201,9 @@ usado para colocar link externo ou interno
 
 target="_blank"
 
- usado para sites externos    usado com <a></a>
+ usado para abrir sites externos, em outra aba.
+
+Ex: <a href="https://www.youtube.com/watch?v=GWULnkTnapM" target="_blank"> 
 
 ===============================================================================================================================================================
 
@@ -284,15 +286,19 @@ MP3 é MPEG.
 
 ===============================================================================================================================================================
 
-height="315"
+height
 
- Altura
+Usado para definir a altura
+
+Ex: height="315"
 
 ===============================================================================================================================================================
 
-width="560"
+width
 
- Largura
+Usado para definir a largura
+
+Ex: width="560"
 
 ===============================================================================================================================================================
 
@@ -329,6 +335,20 @@ poster
 
 Comandos em CSS
 
+
+
+
+border
+
+Usado para fazer bordas, poder ser usado com solid, dashed e talvez outros
+
+Ex: border: 1px solid black;
+
+solid: borda solida
+
+dashed: borda pontilhada
+
+===============================================================================================================================================================
 
 style="background-color: lime;" 
 
@@ -1080,5 +1100,35 @@ div#container {
         }
 
 Usei dessa forma, envelopei o table com div, e no div eu coloquei um id="container" , e no style coloquei na config do id overflow
+
+===================================================================================================================================================================================================================================
+
+iframe
+
+Usado como uma janela inline (na mesma linha). O tamanho padrão do iframe é 300x150 (300 de largura e 150 de altura)
+
+Ex: <iframe src="http://www.google.com.br" frameborder="0" target="_blank"></iframe>
+
+frameborder serve apenas para criar uma borda sendo 0 a 1, sendo 0 sem borda e 1 com borda, pode ser qualquer outro valor no lugar do 1, que a borda vai ser a mesma, 1 px. É melhor personalizar a borda no style com border normalmente 
+
+Ex: iframe {
+            width: 400px;
+            height: 400px;
+	border: 1px solid black;
+        }
+
+===================================================================================================================================================================================================================================
+
+scrolling
+
+Usado em iframes para rolagens e outros, no curso guanabara repassa como scolling
+
+Ex: scrolling="auto" / scrolling="yes" / scrolling="no"
+
+auto: padrão, se o conteúdo exceder o tamanho do frame ele cria uma barra de rolagem
+
+yes: mesmo que o conteúdo caiba em todo o iframa, ira aparecer a barra de rolagem
+
+no: mesmo que o conteúdo exceda o tamanho do frame ele retira a barra de rolagem
 
 ===================================================================================================================================================================================================================================
