@@ -913,6 +913,17 @@ Usado para fazer um espaçamento nas frases, no codigo mostrado foi utilizado 2e
 
 ===================================================================================================================================================================================================================================
 
+display: block;
+
+Usei para centralizar um iframe na tela, usado com margin: auto;
+
+Ex: iframe {
+            display: block;
+            margin: auto;
+        }
+
+===================================================================================================================================================================================================================================
+
 display: inline-block;
 
 Usado para transformar em caixa que se adapta ao conteúdo
