@@ -1161,3 +1161,23 @@ Ex: <iframe src="" id="tela" name="frame">
     </iframe>
 
 ===================================================================================================================================================================================================================================
+
+img src
+
+Neste caso com iframe usamos img src com ' ' normal ao invez de " ", como é no iframe tem que fechar antes do "
+
+Ex: <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções a cima</h1><p>Nilou, personagem de Genshin Impact</p><img src='imagens/nilou.jpg'>">
+        <p>Infelizmente seu navegador não é compatível com essa função.</p>
+    </iframe>
+
+===================================================================================================================================================================================================================================
+
+srcdoc
+
+Nesse src é possível colocar HTML, só que tem que ser digitado de forma manual, no caso do iframe ele já vem com src, caso precisa do srcdock apague o src que já vem e digita o srcdock.
+
+Ex: <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções a cima</h1><p>Nilou, personagem de Genshin Impact</p><img src='imagens/nilou.jpg'>">
+        <p>Infelizmente seu navegador não é compatível com essa função.</p>
+    </iframe>
+
+===================================================================================================================================================================================================================================
